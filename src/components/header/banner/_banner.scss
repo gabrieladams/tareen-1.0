@@ -1,0 +1,17 @@
+$banner-overlay-color: rgba(
+  $color: #000000,
+  $alpha: 0.4,
+);
+
+#header-banner {
+  .banner-image {
+    background-image: url(../../../assets/images/header-banner.jpg);
+
+    .banner-overlay {
+      width: 100%;
+      height: 100%;
+
+      background-color: $banner-overlay-color;
+    }
+  }
+}

@@ -1,0 +1,1 @@
+export { NavBarView } from './nav-bar-view';

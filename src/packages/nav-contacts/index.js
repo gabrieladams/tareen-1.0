@@ -1,0 +1,1 @@
+export { OpenSourceNavContactsView } from './contacts-view';

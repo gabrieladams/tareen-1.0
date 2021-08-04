@@ -1,0 +1,22 @@
+.nav-bar {
+  // positioning
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  // background
+  background-color: $nav-bar-bg-color;
+
+  // box-model
+  padding: 2rem 0rem;
+  width: 100%;
+
+  // typography
+  font-size: 1.5rem;
+  // color: $nav-bar-text-color;
+
+  @import './brand/brand';
+  @import '../../open-source/nav-list/nav-list';
+  @import '../../open-source/nav-contacts/contacts';
+  @import './side-nav-toggler/side-nav-toggler';
+}

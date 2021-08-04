@@ -1,0 +1,1 @@
+export { NavBarBrandView } from './brand-view';

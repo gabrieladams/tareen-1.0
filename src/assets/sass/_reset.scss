@@ -1,0 +1,22 @@
+// reset styles
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-family: $pri-font-family;
+  font-size: $base-font-size;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

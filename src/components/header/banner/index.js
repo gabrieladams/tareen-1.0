@@ -1,0 +1,1 @@
+export { HeaderBannerView } from './banner-view';

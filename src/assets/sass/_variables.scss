@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Serif+JP:wght@400;500;700&display=swap');
+
+// FONTS
+// application base font size
+$base-font-size: 1.4rem;
+
+// application primary font
+$pri-font-family: 'Lato', sans-serif;
+
+// application header font
+$sec-font-family: 'Noto Serif JP', serif;
+
+// COLORS
+// nav-bar background color
+$nav-bar-bg-color: rgba(
+  $color: #1a08c1,
+  $alpha: 0.2,
+);
+
+// side-nav background color
+$side-nav-bg-color: rgba(5, 2, 25, 0.75);
+
+// application text color
+$text-color: #606060;
+
+// application text color light
+$text-color-light: #ffffff;
+
+// application header color dark
+$hdr-color-dark: #000000;
+
+// application header color light
+$hdr-color-light: #ffffff;
+
+// color white
+$white: #ffffff;
+
+// color black
+$black: #000000;
+
+// media queries
+$mobile_device: '(max-width: 767px)';
+$mobile_sm: '(max-width: 375px)';
+$mobile_md: '(max-width: 575px)';
+$mobile_lg: 'only screen and (min-width: 576px) and (max-width: 767px)';
+$above_mobile_device: '(min-width: 768px)';
+
+$tab_device: '(max-width: 991px)';
+$tab: 'only screen and (min-width: 768px) and (max-width: 991px)';
+$above_tab_device: '(min-width: 992px)';
+
+$md_device: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+
+$lg-device: '(min-width: 1200px)';
